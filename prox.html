@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alynk - Bot Discord Minecraft</title>
+
+  <style>
+    /* Fundo e corpo */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+
+    /* Cabeçalho com imagem e botão */
+    .topo {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      max-width: 1000px;
+      margin-bottom: 30px;
+    }
+
+    .imga img {
+      width: 80px;
+      height: auto;
+      border-radius: 8px;
+      margin-right: 20px;
+    }
+
+    .botao-container {
+      display: flex;
+      align-items: center;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #2575fc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #6a11cb;
+    }
+
+    /* Título */
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      margin: 10px 0 30px 0;
+    }
+
+    /* Descrição */
+    .descricao {
+      max-width: 800px;
+      text-align: center;
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    /* Responsividade */
+    @media (max-width: 600px) {
+      .topo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .imga img {
+        margin-bottom: 15px;
+        margin-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Topo com imagem e botão -->
+  <div class="topo">
+    <div class="imga">
+      <img src="BotImagen.png.webp" alt="Logo do Bot">
+    </div>
+    <div class="botao-container">
+      <a href="https://discord.com/oauth2/authorize?client_id=1422074024707620884">
+        <button>Adicionar ao Discord</button>
+      </a>
+    </div>
+  </div>
+
+  <!-- Título -->
+  <h1>Alynk</h1>
+
+  <!-- Descrição -->
+  <p class="descricao">
+    O <strong>Alynk</strong> é um bot de Discord criado especialmente para comunidades de <strong>Minecraft</strong>. Ele conecta seu servidor do jogo ao Discord, permitindo automações como anúncios de players online, comandos úteis, integração com plugins e muito mais. Ideal para servidores que buscam organização, interação e ferramentas práticas dentro e fora do jogo.
+  </p>
+
+</body>
+</html>
